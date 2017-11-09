@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Hero.css';
 import perfil from './perfil.jpg';
-import {} from 'react-router-dom'
 import Navegation from '../Navegation.js';
 
 export default class Hero extends Component {
@@ -14,9 +13,10 @@ export default class Hero extends Component {
             <img src={perfil} className="hero-image" alt="Rafael Souza"/>
           </div>
           <div className="hero-content-bottom">
-            <h1>Rafael Developer</h1>
+            <h1>Rafael Souza</h1>
             <hr />
-            <p className="p-hero">Fabrico "coisas" para a web...</p>
+            <p className="p-hero"><code>I am a web developer with a focus on front-end
+            <br/> developing with new and secure technologies.</code></p>
           </div>
         </div>
       </div>

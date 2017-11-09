@@ -1,12 +1,8 @@
 import React,{ Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import './App.css';
 
 export default class Navegation extends Component{
-  
-  notRefresh = (e) =>{
-    //e.preventDefault();
-    console.log("prevent default");
-  };
-  
   render(){
     const li = [
       'About',
@@ -15,7 +11,13 @@ export default class Navegation extends Component{
     ];
 
     const mapLi = li.map((src,index)=>{
-      return <li key={index}><a href={src} onClick={(e) => { this.notRefresh(e)}}>{src}</a></li>
+      return  <li key={index} className="li-a">
+                <NavLink 
+                  to={src} 
+                  activeStyle={{fontWeight: 'bold',color: 'red'}}>
+                  {src}
+                </NavLink>
+              </li>
     });
     return(
       <div className="hero-top Container-external">
