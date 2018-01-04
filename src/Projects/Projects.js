@@ -27,7 +27,7 @@ export default class Projects extends Component{
 						<p className="p-div-images p-div-images-2">Simplification of instagram created with react and es6</p>
 					</div>
 					<div className="div-images-window">
-						<a href="https://rafaelsouzza.github.io" target="_blank">
+						<a href="https://github.com/rafaelangical/simpleinstagram" target="_blank">
 							<img src={rafa} alt="rafa" className="section-images"/>
 						</a>
 						<hr className="hr-div-images"/>
