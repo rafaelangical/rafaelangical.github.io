@@ -28,7 +28,7 @@ export default class Projects extends Component{
 					</div>
 					<div className="div-images-window">
 						<a href="https://github.com/rafaelangical/simpleinstagram" target="_blank">
-							<img src={rafa} alt="rafa" className="section-images"/>
+							<img src={rafa} alt="SimpleInstagram" className="section-images"/>
 						</a>
 						<hr className="hr-div-images"/>
 						<p className="p-div-images p-div-images-3">Pessonal page created with only html, css and js and bootstrap</p>
