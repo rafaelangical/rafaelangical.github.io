@@ -90,11 +90,6 @@ h1{
   color: white;
   letter-spacing: 2px;
 }
-body{
-  background-image: url(./back2.jpg);
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-}
 .projects-container{
   width: 100vw;
   height: 70vh;
@@ -133,17 +128,10 @@ body{
   font-size: 2em;
   padding: 1em;
 }
-.p-div-images-1{
-  color:white;
-}
-.p-div-images-2{
-  color:#888;
-}
-.p-div-images-3{
-  color:#999;
-}
-.p-div-images-4{
-  color:blue;
+.p-div-images-1, .p-div-images-2, .p-div-images-3, .p-div-images-4{
+  color:black;
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .div-about{
   width: 80vw;
