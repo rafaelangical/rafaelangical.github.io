@@ -128,6 +128,10 @@ h1{
   opacity:0.8;
   margin: 2em auto;
 }
+.section-images-app{
+  width: 60%;
+  height: 45%;
+}
 .section-images:hover{
   opacity: 1;
   width: 100%;
