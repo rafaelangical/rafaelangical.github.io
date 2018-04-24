@@ -28,18 +28,21 @@ h2:hover{
   justify-content: center;
   align-items:center;
   text-transform: uppercase;
+  
 }
 nav ul li{
   display: inline;
   margin: 8%;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #966;
   list-style: none;
+  
 }
 nav ul li a{
   color:blue;
   letter-spacing: 4px;
   text-decoration: none;
+  
 }
 nav ul li a:hover{
   color: #986;
@@ -66,28 +69,45 @@ nav ul li a:hover{
 }
 .hero-content-bottom{
   width: 50%;
-  height: 30%;
+  height: 50%;
   align-items:center;
+  display: flex;
+  flex-flow: row wrap;
+}
+.hero-content-bottom-top{
+  width: 100%;
+  height: 70%;
+}
+.hero-content-bottom-bottom{
+  width: 100%;
+  height: 30%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.images-socials{
+  width: 2em;
+  height: 2em;
+  margin: 1em;
 }
 hr{
   width: 70%;
-  color:blue;
-  background-color: red;
+  color: antiquewhite;
   align-self: center;
 }
 h1{
-  align-self: center;
   font-size: 2.5em;
-  letter-spacing: 3px;
-  opacity:0.8;
-  color: #876;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  color: #923;
   margin: 1em 0 0.5em 0.5em;
+
 }
 .p-hero{
   padding: 0.5em; 
   align-self: center;
   font-size: 1.5em;
-  color: white;
+  color: navy;
   letter-spacing: 2px;
 }
 .projects-container{
@@ -144,10 +164,11 @@ h1{
   text-transform: uppercase;
 }
 .p-about-p{
+  color: saddlebrown;
   margin: 2em;
   padding: 2em;
   font-size: 2em;
-  letter-spacing: 2px;
-  color:red;
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+  @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+  font-family: 'IBM Plex Mono', monospace;
 }
