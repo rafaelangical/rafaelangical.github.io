@@ -3,12 +3,6 @@
 	.container-about{
 		width:100vw;
 		height:100vh;
-		background-image: url('./Hero/back3.jpg');
-		background-attachment: cover;
-		background-position: fixed;
-		background-size: 100vw 100vh;
-		background-repeat: no-repeat;
-		background-color: red;
 	}
 	.div-about{
 		min-width: 90vw;
@@ -24,17 +18,10 @@
 		font-size: 1em;
 	}
 }
-
 @media (min-width: 768px) and (max-width: 900px) {
 	.container-about{
 		width:100vw;
 		height:100vh;
-		background-image: url('./Hero/back3.jpg');
-		background-attachment: cover;
-		background-position: fixed;
-		background-size: 100vw 100vh;
-		background-repeat: no-repeat;
-		background-color: red;
 	}
 	.div-about{
 		min-width: 90vw;
@@ -54,12 +41,6 @@
 	.container-about{
 		width:100vw;
 		height:100vh;
-		background-image: url('./Hero/back3.jpg');
-		background-attachment: cover;
-		background-position: fixed;
-		background-size: 100vw 100vh;
-		background-repeat: no-repeat;
-		background-color: red;
 	}
 	.div-about{
 		min-width: 90vw;
@@ -81,11 +62,5 @@
   .container-about{
 		width:100vw;
 		height:100vh;
-		background-image: url('./Hero/back3.jpg');
-		background-attachment: cover;
-		background-position: fixed;
-		background-size: 100vw 100vh;
-		background-repeat: no-repeat;
-		background-color: red;
 	}     
 }
