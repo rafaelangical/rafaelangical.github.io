@@ -1,31 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter,Route,Switch } from 'react-router-dom';
-import Hero from './Hero/Hero.js';
-import About from './About.js';
-import Projetcs from './Projects/Projects.js';
+import tag from './assets/img/tag.svg';
+import github from './assets/img/github.svg';
+import linkedin from './assets/img/linkedin.svg';
+import twitter from './assets/img/twitter.png';
 
-
-class Error extends Component{
-  render() {
-    return(
-      <h3>Not Found 404</h3>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <img src={tag} alt='tag' /> 
+      <h1>Rafael <strong>dev</strong></h1>
+      <p>
+        <span> HTML</span> - 
+        <span> CSS</span> - 
+        <span> JS</span> - 
+        <span> React</span> - 
+        <span> React Native</span> - 
+        <span> Redux</span> - 
+        <span> NodeJs</span>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/rafaelangical/" target='_blank'><img src={linkedin} alt ='linkedin'/></a>
+        <a href="https://twitter.com/rafaelangical" target="_blank"><img src={twitter} alt ='twitter'/></a>
+        <a href="https://github.com/rafaelangical" target="_blank"><img src={github} alt ='github'/></a>
+      </p>
+      <a href="mailto:rafaelangical2@egmail.com" className="email">rafaelangical2@gmail.com</a>
+      <a href="tel:+5586995713097">Call me +55 86 995713097</a>
+    </div>
+  );
 }
 
-export default class extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" component={Hero} exact />
-          <Route path="/Home" component={Hero} exact />
-          <Route path="/Projects" component={Projetcs} exact />
-          <Route path="/About" component={About} exact />
-          <Route Component={Error} />
-        </Switch>
-      </BrowserRouter>
-    );
-  }
-}
+export default App;
