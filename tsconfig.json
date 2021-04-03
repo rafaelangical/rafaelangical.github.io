@@ -11,6 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
+    "tsBuildInfoFile": "./buildcache/front-end",
     "jsx": "preserve",
     "allowJs": false,
     "lib": [
