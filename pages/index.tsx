@@ -3,7 +3,7 @@ import Button from '../components/button/button';
 import Layout from '../components/layout/layout';
 import PostItem from '../components/postItem/postItem';
 import WorkItem from '../components/workItem/workItem';
-import { Img, Row, RowPosts, RowSubTitle, RowWorks, SubTitle, Title } from './styles/home';
+import { Img, Row, RowPosts, RowSubTitle, RowWorks, SubTitle, Title } from '../styles/home';
 
 const data = [
   {

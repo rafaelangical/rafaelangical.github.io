@@ -221,20 +221,10 @@
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
       },
-      "../jest.config.js": {
-        "version": "56fa8d813f31a55e355dd49624e5582184be7591173619dba5d041eaf1376784",
-        "signature": "898d00433f6dcf0576da0edf1499da5cdd4b6102fe52d80875ed9a71cbdb27fb",
-        "affectsGlobalScope": true
-      },
       "../next-env.d.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
-      },
-      "../next.config.js": {
-        "version": "8f62da52022a575c0a2bcf6078e84d59dd59872e43b2f95839787501230e9b52",
-        "signature": "6dafe65d5bf8b29d8d00d97f2207974e634bc09c9c9012fcbb3c35c4d12aba54",
-        "affectsGlobalScope": true
       },
       "../node_modules/csstype/index.d.ts": {
         "version": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
@@ -1071,7 +1061,7 @@
       "incremental": true,
       "tsBuildInfoFile": "./front-end",
       "jsx": 1,
-      "allowJs": true,
+      "allowJs": false,
       "lib": [
         "lib.dom.d.ts",
         "lib.dom.iterable.d.ts",
@@ -2295,9 +2285,7 @@
       "../components/textArea/textArea.tsx",
       "../components/workItem/styles.ts",
       "../components/workItem/workItem.tsx",
-      "../jest.config.js",
       "../next-env.d.ts",
-      "../next.config.js",
       "../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",

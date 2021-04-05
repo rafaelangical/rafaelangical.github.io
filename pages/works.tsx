@@ -1,6 +1,6 @@
 import Layout from '../components/layout/layout';
 import WorkItem from '../components/workItem/workItem';
-import { RowWorks, TitleWorks } from './styles/home';
+import { RowWorks, TitleWorks } from '../styles/home';
 
 const data = [
   {

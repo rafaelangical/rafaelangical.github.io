@@ -3,7 +3,7 @@ import TextArea from 'components/textArea/textArea';
 import { useState } from 'react';
 import Input from '../components/input/input';
 import Layout from '../components/layout/layout';
-import { Form, Label } from './styles/contact';
+import { Form, Label } from '../styles/contact';
 
 const Contact: React.FC = () => {
   const [data, setData] = useState({
