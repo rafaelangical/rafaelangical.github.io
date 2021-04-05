@@ -2,9 +2,13 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Copyright, Row, Wrapper } from './styles';
 
-const Footer: React.FC = () => {
+export interface Props {
+  fixed?: boolean
+};
+
+const Footer: React.FC<Props> = ({ fixed }) => {
   return (
-    <Wrapper>
+    <Wrapper fixed={fixed}>
       <Row>
         <a href="https://github.com/rafaelangical"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
         <a href="https://www.linkedin.com/in/rafaelangical/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>

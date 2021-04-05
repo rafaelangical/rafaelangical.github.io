@@ -1,7 +1,7 @@
 import { Btn } from './styles';
 
 interface Props {
-  onClick(): void;
+  onClick(e): void;
   title: string;
 }
 

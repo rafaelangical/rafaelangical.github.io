@@ -5,9 +5,10 @@ import Header from '../header/header'
 
 type LayoutProps = {
   title?: string
+  headerFixed?: boolean;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, title }) => (
+const Layout: React.FC<LayoutProps> = ({ children, title, headerFixed }) => (
   <div className="App">
     <Head>
       <title>{title}</title>
@@ -16,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
     </Head>
     <Header />
     {children}
-    <Footer />
+    <Footer fixed={headerFixed} />
   </div>
 )
 export default Layout

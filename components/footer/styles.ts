@@ -1,16 +1,17 @@
 import styled from 'styled-components';
+import { Props } from './footer';
 
-export const Wrapper = styled.footer`
+export const Wrapper = styled.footer<Props>`
   width: 100%;
   height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   padding: 0 16px;
+  position: ${({ fixed }) => fixed ? 'fixed' : 'relative'};
 `;
 
 export const Row = styled.div`
