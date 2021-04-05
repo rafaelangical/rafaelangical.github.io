@@ -551,6 +551,16 @@
         "signature": "4f4ce6860737e466b42104e1015956360232357b65932e5d329d43ecac02d1ff",
         "affectsGlobalScope": false
       },
+      "../components/input/styles.ts": {
+        "version": "5ee17a3f6d0664e2842449b023739aee1806a5c35f4c1a23b96afcba60aa0e49",
+        "signature": "07a54b2953d09fa7a6da9fede4a05f2bc6db691dc744a7c03e0bc564296a9db5",
+        "affectsGlobalScope": false
+      },
+      "../components/input/input.tsx": {
+        "version": "01db0ec45d2f518e99cf3a1f072db6ced32004041e725beb39e3e0046a86cf08",
+        "signature": "90a88f2d0e36858cf7d965c8534751737d0acd5d606ae53199a6f09b1cf6fdd5",
+        "affectsGlobalScope": false
+      },
       "../node_modules/next/dist/next-server/lib/head.d.ts": {
         "version": "290ec1a014c3c8b26a8b789a61426c41035574efac7e96562f5d7388747c5f32",
         "signature": "290ec1a014c3c8b26a8b789a61426c41035574efac7e96562f5d7388747c5f32",
@@ -574,6 +584,16 @@
       "../components/postItem/postItem.tsx": {
         "version": "43a62582e027a31b95ca0966c8b2cbf21999b6b2b3d4ff61f366d368fd926c14",
         "signature": "38ae6a4e77a43fe008c41806a671caea417200cc049e9c1dc48a8249aa18d218",
+        "affectsGlobalScope": false
+      },
+      "../components/textArea/styles.ts": {
+        "version": "49cf12ec3c6974f51e9a62645ef37c2c4ccb8f74efdf257599cc080582cc60de",
+        "signature": "39ccf85ed516aa8f33826daf7b31a9c9c6ad61495c296800e99f347790ab38c0",
+        "affectsGlobalScope": false
+      },
+      "../components/textArea/textArea.tsx": {
+        "version": "94e8841de5552f8bf70e53b88b66798bf6fe94fc3489e80a5e7b881e15d99fb0",
+        "signature": "622e27bf89b1e73fd2010c6c04e4dd82a0bf5391f32aa6693186b4776e63be99",
         "affectsGlobalScope": false
       },
       "../node_modules/next/dist/client/image.d.ts": {
@@ -792,12 +812,12 @@
         "affectsGlobalScope": false
       },
       "../pages/styles/contact.ts": {
-        "version": "f5a409cd843234149589bfa342f68bac8266a1fb6291a6984ae878be3276ad6b",
-        "signature": "462191fe55f0405ed212b91bfbcdb396bd1fd26c9c6220dc2c53d656af6875ec",
+        "version": "7924cd09c355e92af4ad8c05eb49777d90ada1d3f9610eb1a70915f1e784a6e7",
+        "signature": "94bd6b3f320f42470ce7d09e4207771f3a2796d79ddd13faac741c4ff58c8a96",
         "affectsGlobalScope": false
       },
       "../pages/contact.tsx": {
-        "version": "b32800df6d8241df4902694cf3cdda61ef930ccdd3d7917bc093f99ddf7fcdb6",
+        "version": "f2555474353a7862ec36ed6f5fd9e51da86e4abb92d36f2a684410d26a96ab8b",
         "signature": "c3d29689c35ce971b35e34af73c2091b7f3374156afc684f2889ac0efe299fd2",
         "affectsGlobalScope": false
       },
@@ -1007,6 +1027,12 @@
       "../components/header/styles.ts": [
         "../node_modules/@types/styled-components/index.d.ts"
       ],
+      "../components/input/input.tsx": [
+        "../components/input/styles.ts"
+      ],
+      "../components/input/styles.ts": [
+        "../node_modules/@types/styled-components/index.d.ts"
+      ],
       "../components/layout/layout.tsx": [
         "../components/footer/footer.tsx",
         "../components/header/header.tsx",
@@ -1018,6 +1044,12 @@
       ],
       "../components/postItem/styles.ts": [
         "../node_modules/@types/styled-components/index.d.ts"
+      ],
+      "../components/textArea/styles.ts": [
+        "../node_modules/@types/styled-components/index.d.ts"
+      ],
+      "../components/textArea/textArea.tsx": [
+        "../components/textArea/styles.ts"
       ],
       "../components/workItem/styles.ts": [
         "../node_modules/@types/styled-components/index.d.ts",
@@ -1514,7 +1546,10 @@
       ],
       "../pages/contact.tsx": [
         "../components/button/button.tsx",
+        "../components/input/input.tsx",
         "../components/layout/layout.tsx",
+        "../components/textArea/textArea.tsx",
+        "../node_modules/@types/react/index.d.ts",
         "../pages/styles/contact.ts"
       ],
       "../pages/index.tsx": [
@@ -1554,10 +1589,16 @@
       "../components/header/styles.ts": [
         "../node_modules/@types/styled-components/index.d.ts"
       ],
+      "../components/input/styles.ts": [
+        "../node_modules/@types/styled-components/index.d.ts"
+      ],
       "../components/layout/layout.tsx": [
         "../node_modules/@types/react/index.d.ts"
       ],
       "../components/postItem/styles.ts": [
+        "../node_modules/@types/styled-components/index.d.ts"
+      ],
+      "../components/textArea/styles.ts": [
         "../node_modules/@types/styled-components/index.d.ts"
       ],
       "../components/workItem/styles.ts": [
@@ -2067,9 +2108,13 @@
       "../components/footer/styles.ts",
       "../components/header/header.tsx",
       "../components/header/styles.ts",
+      "../components/input/input.tsx",
+      "../components/input/styles.ts",
       "../components/layout/layout.tsx",
       "../components/postItem/postItem.tsx",
       "../components/postItem/styles.ts",
+      "../components/textArea/styles.ts",
+      "../components/textArea/textArea.tsx",
       "../components/workItem/styles.ts",
       "../components/workItem/workItem.tsx",
       "../next-env.d.ts",
@@ -2278,6 +2323,14 @@
         1
       ],
       [
+        "../components/input/input.tsx",
+        1
+      ],
+      [
+        "../components/input/styles.ts",
+        1
+      ],
+      [
         "../components/layout/layout.tsx",
         1
       ],
@@ -2287,6 +2340,14 @@
       ],
       [
         "../components/postItem/styles.ts",
+        1
+      ],
+      [
+        "../components/textArea/styles.ts",
+        1
+      ],
+      [
+        "../components/textArea/textArea.tsx",
         1
       ],
       [
