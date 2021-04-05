@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "lint": "eslint --ext js,jsx,ts,tsx --fix",
+    "lint": "eslint **/*.ts **/*.tsx",
     "postinstall": "husky install",
     "test": "jest",
     "test:update": "npm run test -- -u"
