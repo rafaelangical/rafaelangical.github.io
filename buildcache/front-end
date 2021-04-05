@@ -221,10 +221,20 @@
         "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
         "affectsGlobalScope": true
       },
+      "../jest.config.js": {
+        "version": "56fa8d813f31a55e355dd49624e5582184be7591173619dba5d041eaf1376784",
+        "signature": "898d00433f6dcf0576da0edf1499da5cdd4b6102fe52d80875ed9a71cbdb27fb",
+        "affectsGlobalScope": true
+      },
       "../next-env.d.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
+      },
+      "../next.config.js": {
+        "version": "8f62da52022a575c0a2bcf6078e84d59dd59872e43b2f95839787501230e9b52",
+        "signature": "6dafe65d5bf8b29d8d00d97f2207974e634bc09c9c9012fcbb3c35c4d12aba54",
+        "affectsGlobalScope": true
       },
       "../node_modules/csstype/index.d.ts": {
         "version": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
@@ -267,8 +277,8 @@
         "affectsGlobalScope": false
       },
       "../components/button/button.tsx": {
-        "version": "478c78e5ef66565f1f96f7c166c6da53f6f90069c2825c05b1bdcafc41122d8f",
-        "signature": "e54bd4732e9bb7e0f2bd3132283b231533664c876d3a7012ee886ffc462bca87",
+        "version": "0d8e79ecc1e47ddd3c4c089819824ff480839f92760684d583c9e281d15de528",
+        "signature": "905d36c89932d2ae1441e17caa2ec66f324e32fbc6f54e48c7c6dcd8c1728cb7",
         "affectsGlobalScope": false
       },
       "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts": {
@@ -292,13 +302,13 @@
         "affectsGlobalScope": false
       },
       "../components/footer/styles.ts": {
-        "version": "ed404f8ee010a46dcaf4fe9ba3a0d80e386a69cabf2bf5bdf2573be36d000f79",
-        "signature": "0f16e34b6aebe485579a90f43d29d43382b8db3dea9ff1b1749d76589acd8b9e",
+        "version": "87c5afd3bdfd714afcbfa2b0f1e160a7adb21df5613dc2335e8892a84f24dcba",
+        "signature": "ece29abc80263d0d7b941d020a891fe57e915b76f68c7a94620f1a75e4a37ddc",
         "affectsGlobalScope": false
       },
       "../components/footer/footer.tsx": {
-        "version": "b077a9a90093acdeb056679e56b78cf688211242544f676b1c84361e14fd444f",
-        "signature": "8bcffe0cdfcc9a768c2fad6f44489a4a4ad86dc1606a97b551719d9af9ff4eb3",
+        "version": "212920a8b94e5e19a6e27f6844adc2ebf9013ec460dfeae04c052068ea64a951",
+        "signature": "f8d8a75df3571dedae902044b2a20426333388e8a3bb67bbf5688570da6bc33c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
@@ -572,8 +582,8 @@
         "affectsGlobalScope": false
       },
       "../components/layout/layout.tsx": {
-        "version": "fb98bfb6b5112d51d809b073bd41b7cbba830e621ce238e2e985be77eb63f363",
-        "signature": "5adb91327fe3f5f33d2bf7b2c4eae256a83566f6307d72b7b0e4b4f823ea3752",
+        "version": "76e17d2242effa208a1e205e1e699412a383bfc6efc09cfff87d930e8f5ca0d5",
+        "signature": "bd11a419beebdd91e7e62012e2a2b5704e8377a4f7de6c6509717705300d2468",
         "affectsGlobalScope": false
       },
       "../components/postItem/styles.ts": {
@@ -812,12 +822,12 @@
         "affectsGlobalScope": false
       },
       "../pages/styles/contact.ts": {
-        "version": "7924cd09c355e92af4ad8c05eb49777d90ada1d3f9610eb1a70915f1e784a6e7",
-        "signature": "94bd6b3f320f42470ce7d09e4207771f3a2796d79ddd13faac741c4ff58c8a96",
+        "version": "98bbd45d2454aa9a2079e4862175ffdc07966bcc0f2fee4ebda4d06a4a8bdbd1",
+        "signature": "b9eb3b98aff2701ee7b0909890b1c4799a1e94b4d244df7d39c35d3848832798",
         "affectsGlobalScope": false
       },
       "../pages/contact.tsx": {
-        "version": "f2555474353a7862ec36ed6f5fd9e51da86e4abb92d36f2a684410d26a96ab8b",
+        "version": "2043c5962d786a0462d806aa68195ce11ee6524da6578261c05380831f76a73e",
         "signature": "c3d29689c35ce971b35e34af73c2091b7f3374156afc684f2889ac0efe299fd2",
         "affectsGlobalScope": false
       },
@@ -834,6 +844,81 @@
       "../pages/works.tsx": {
         "version": "12c89c77c0de776bfe917301d4ce6ebef7e8f986823427f1408aba8c0be2b20d",
         "signature": "dac12aebfd8e04c255dd7fc1705e70d39a76eb8bb9dbd5c7bf80957b05ddc220",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/attachment.d.ts": {
+        "version": "cd65558d80bf2ec0f826e7c9cc753c7c9113b50a492315f97872e9da27840530",
+        "signature": "cd65558d80bf2ec0f826e7c9cc753c7c9113b50a492315f97872e9da27840530",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/email-address.d.ts": {
+        "version": "4b2ebe59f23314851c4cf4d65b194e3a65b68bdf0cdc1be2ffe19406605c9694",
+        "signature": "4b2ebe59f23314851c4cf4d65b194e3a65b68bdf0cdc1be2ffe19406605c9694",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/personalization.d.ts": {
+        "version": "b1f0a09685cde3ffe288bcee69cf6f4a4ce8d051becd43d4b3721d610736be0d",
+        "signature": "b1f0a09685cde3ffe288bcee69cf6f4a4ce8d051becd43d4b3721d610736be0d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/mail.d.ts": {
+        "version": "4749d4f7f522e14f5fe23ec0cbdf4c7381788102998713251282af6b1582267b",
+        "signature": "4749d4f7f522e14f5fe23ec0cbdf4c7381788102998713251282af6b1582267b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/response.d.ts": {
+        "version": "dbd416a31ba77a6d90ea4163c2fff64c675d7377bf4c637776e0b08fc225db48",
+        "signature": "dbd416a31ba77a6d90ea4163c2fff64c675d7377bf4c637776e0b08fc225db48",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/response-error.d.ts": {
+        "version": "5b54a276dde01f6f7120b4ead0bce82dfdd6a52e0e001a2fd5f0ccc6f470fa6b",
+        "signature": "5b54a276dde01f6f7120b4ead0bce82dfdd6a52e0e001a2fd5f0ccc6f470fa6b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/index.d.ts": {
+        "version": "360de32ec39b1699ade98153c3f8351988e85b878bdf12907fd39398aa8a8fe0",
+        "signature": "360de32ec39b1699ade98153c3f8351988e85b878bdf12907fd39398aa8a8fe0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/helpers/classes/request.d.ts": {
+        "version": "0a9584867a25e2f2db31244e887b0afaad520da2a8bae39dc3b595e2338f0c29",
+        "signature": "0a9584867a25e2f2db31244e887b0afaad520da2a8bae39dc3b595e2338f0c29",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/client/src/request.d.ts": {
+        "version": "404d0cb13e779108e74a5b1e02ec10a8e9933b825f300c797ba4558451784de5",
+        "signature": "404d0cb13e779108e74a5b1e02ec10a8e9933b825f300c797ba4558451784de5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/client/src/response.d.ts": {
+        "version": "4ffee86e26af85318716d9a053a33b2659c987a9492015435b213f0ccf04a491",
+        "signature": "4ffee86e26af85318716d9a053a33b2659c987a9492015435b213f0ccf04a491",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/client/src/client.d.ts": {
+        "version": "f7a592828f97073c2eb274e16daed10d8f7c82a015a7d4694f3d40a09a559eeb",
+        "signature": "f7a592828f97073c2eb274e16daed10d8f7c82a015a7d4694f3d40a09a559eeb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/client/index.d.ts": {
+        "version": "c9d70252b35da8cb8137d70b02a383e7edc3c2e1e6c37ea87ffef982a7eaf644",
+        "signature": "c9d70252b35da8cb8137d70b02a383e7edc3c2e1e6c37ea87ffef982a7eaf644",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/mail/src/mail.d.ts": {
+        "version": "7189cd6797bf2255b4f86b88dfdbe69774070cb3e21a2dd9228b1d868275e35d",
+        "signature": "7189cd6797bf2255b4f86b88dfdbe69774070cb3e21a2dd9228b1d868275e35d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sendgrid/mail/index.d.ts": {
+        "version": "c4aa043e77a847629a298e6182d4bae576f6c6e2f309f3ae11c58ed79b0dab64",
+        "signature": "c4aa043e77a847629a298e6182d4bae576f6c6e2f309f3ae11c58ed79b0dab64",
+        "affectsGlobalScope": false
+      },
+      "../pages/api/email.ts": {
+        "version": "6780edbacc8ab2cbd727d599fea46e57be2e81b25e1db1ce949c97f81618a74d",
+        "signature": "09794f443306556822a97d44dcf26b0d95f712d4ec84e48acf39c163b45eab9d",
         "affectsGlobalScope": false
       },
       "../pages/api/hello.ts": {
@@ -986,7 +1071,7 @@
       "incremental": true,
       "tsBuildInfoFile": "./front-end",
       "jsx": 1,
-      "allowJs": false,
+      "allowJs": true,
       "lib": [
         "lib.dom.d.ts",
         "lib.dom.iterable.d.ts",
@@ -1017,6 +1102,7 @@
         "../node_modules/@fortawesome/react-fontawesome/index.d.ts"
       ],
       "../components/footer/styles.ts": [
+        "../components/footer/footer.tsx",
         "../node_modules/@types/styled-components/index.d.ts"
       ],
       "../components/header/header.tsx": [
@@ -1071,6 +1157,48 @@
       "../node_modules/@fortawesome/react-fontawesome/index.d.ts": [
         "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
         "../node_modules/@types/react/index.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/index.d.ts": [
+        "../node_modules/@sendgrid/client/src/client.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/client.d.ts": [
+        "../node_modules/@sendgrid/client/src/request.d.ts",
+        "../node_modules/@sendgrid/client/src/response.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/index.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/request.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/request.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/response.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/response.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/index.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/mail.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/personalization.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/response-error.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/response.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/mail.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/personalization.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/personalization.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/request.d.ts": [
+        "../node_modules/@types/node/https.d.ts"
+      ],
+      "../node_modules/@sendgrid/mail/index.d.ts": [
+        "../node_modules/@sendgrid/mail/src/mail.d.ts"
+      ],
+      "../node_modules/@sendgrid/mail/src/mail.d.ts": [
+        "../node_modules/@sendgrid/client/index.d.ts",
+        "../node_modules/@sendgrid/client/src/response.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/index.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/mail.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -1541,6 +1669,10 @@
         "../node_modules/@types/styled-components/index.d.ts",
         "../node_modules/next/document.d.ts"
       ],
+      "../pages/api/email.ts": [
+        "../node_modules/@sendgrid/mail/index.d.ts",
+        "../node_modules/next/types/index.d.ts"
+      ],
       "../pages/api/hello.ts": [
         "../node_modules/next/types/index.d.ts"
       ],
@@ -1581,6 +1713,7 @@
         "../node_modules/@types/styled-components/index.d.ts"
       ],
       "../components/footer/styles.ts": [
+        "../components/footer/footer.tsx",
         "../node_modules/@types/styled-components/index.d.ts"
       ],
       "../components/header/header.tsx": [
@@ -1620,6 +1753,48 @@
       "../node_modules/@fortawesome/react-fontawesome/index.d.ts": [
         "../node_modules/@fortawesome/fontawesome-svg-core/index.d.ts",
         "../node_modules/@types/react/index.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/index.d.ts": [
+        "../node_modules/@sendgrid/client/src/client.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/client.d.ts": [
+        "../node_modules/@sendgrid/client/src/request.d.ts",
+        "../node_modules/@sendgrid/client/src/response.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/index.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/request.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/request.d.ts"
+      ],
+      "../node_modules/@sendgrid/client/src/response.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/response.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/index.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/mail.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/personalization.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/response-error.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/response.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/mail.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/personalization.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/personalization.d.ts": [
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts"
+      ],
+      "../node_modules/@sendgrid/helpers/classes/request.d.ts": [
+        "../node_modules/@types/node/https.d.ts"
+      ],
+      "../node_modules/@sendgrid/mail/index.d.ts": [
+        "../node_modules/@sendgrid/mail/src/mail.d.ts"
+      ],
+      "../node_modules/@sendgrid/mail/src/mail.d.ts": [
+        "../node_modules/@sendgrid/client/index.d.ts",
+        "../node_modules/@sendgrid/client/src/response.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/index.d.ts",
+        "../node_modules/@sendgrid/helpers/classes/mail.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -2087,6 +2262,9 @@
       "../pages/_document.tsx": [
         "../node_modules/next/document.d.ts"
       ],
+      "../pages/api/email.ts": [
+        "../node_modules/next/types/index.d.ts"
+      ],
       "../pages/api/hello.ts": [
         "../node_modules/next/types/index.d.ts"
       ],
@@ -2117,7 +2295,9 @@
       "../components/textArea/textArea.tsx",
       "../components/workItem/styles.ts",
       "../components/workItem/workItem.tsx",
+      "../jest.config.js",
       "../next-env.d.ts",
+      "../next.config.js",
       "../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@fortawesome/fontawesome-common-types/index.d.ts",
@@ -2125,6 +2305,20 @@
       "../node_modules/@fortawesome/free-brands-svg-icons/index.d.ts",
       "../node_modules/@fortawesome/react-fontawesome/index.d.ts",
       "../node_modules/@next/env/types/index.d.ts",
+      "../node_modules/@sendgrid/client/index.d.ts",
+      "../node_modules/@sendgrid/client/src/client.d.ts",
+      "../node_modules/@sendgrid/client/src/request.d.ts",
+      "../node_modules/@sendgrid/client/src/response.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/index.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/mail.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/personalization.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/request.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/response-error.d.ts",
+      "../node_modules/@sendgrid/helpers/classes/response.d.ts",
+      "../node_modules/@sendgrid/mail/index.d.ts",
+      "../node_modules/@sendgrid/mail/src/mail.d.ts",
       "../node_modules/@types/babel__core/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
       "../node_modules/@types/babel__template/index.d.ts",
@@ -2289,6 +2483,7 @@
       "../node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "../pages/_app.tsx",
       "../pages/_document.tsx",
+      "../pages/api/email.ts",
       "../pages/api/hello.ts",
       "../pages/contact.tsx",
       "../pages/index.tsx",
@@ -2359,7 +2554,15 @@
         1
       ],
       [
+        "../jest.config.js",
+        1
+      ],
+      [
         "../next-env.d.ts",
+        1
+      ],
+      [
+        "../next.config.js",
         1
       ],
       [
@@ -2388,6 +2591,62 @@
       ],
       [
         "../node_modules/@next/env/types/index.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/client/index.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/client/src/client.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/client/src/request.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/client/src/response.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/attachment.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/email-address.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/index.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/mail.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/personalization.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/request.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/response-error.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/helpers/classes/response.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/mail/index.d.ts",
+        1
+      ],
+      [
+        "../node_modules/@sendgrid/mail/src/mail.d.ts",
         1
       ],
       [
@@ -2896,6 +3155,10 @@
       ],
       [
         "../pages/_document.tsx",
+        1
+      ],
+      [
+        "../pages/api/email.ts",
         1
       ],
       [

@@ -4,7 +4,7 @@ import { Copyright, Row, Wrapper } from './styles';
 
 export interface Props {
   fixed?: boolean
-};
+}
 
 const Footer: React.FC<Props> = ({ fixed }) => {
   return (
